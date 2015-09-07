@@ -18,6 +18,11 @@ require('marionette-zombie-detector').install(require('backbone.marionette'));
 
 Now, open your console and look for "Zombie Detected" information messages.
 
+#### Note
+
+This code is not intended for production purposes, only for finding zombies during
+development.
+
 #### Licence
 
 MIT
