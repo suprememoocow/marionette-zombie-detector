@@ -1,0 +1,25 @@
+{
+  "name": "marionette-zombie-detector",
+  "version": "0.1.0",
+  "description": "MarionetteJS Zombie Detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suprememoocow/marionette-zombie-detector.git"
+  },
+  "keywords": [
+    "backbone",
+    "marionette",
+    "zombie",
+    "detector"
+  ],
+  "author": "Andrew Newdigate <andrewn@datatribe.net> (http://about.me/andrewnewdigate)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suprememoocow/marionette-zombie-detector/issues"
+  },
+  "homepage": "https://github.com/suprememoocow/marionette-zombie-detector#readme"
+}
