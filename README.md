@@ -27,6 +27,11 @@ Watch the console as zombies are detected:
 This code is not intended for production purposes, only for finding zombies during
 development.
 
+#### How does it work?
+The zombie detector uses two methods of detection:
+1. Monitor the `el` element on each Marionette View. When the `el` is detached from the DOM, it ensures that the corresponding View has been destroyed and logs a leak if it has not.
+2. Tracks all EventTarget `addEventListener` and `removeEventListener` invocations and ensures that when the View is removed from the DOM, all the event listeners have been removed from the `el` element and all it's child elements. In other words, when the view's subtree is removed from the DOM, no event listeners remain on the detached subtree.
+
 #### Licence
 
 MIT
